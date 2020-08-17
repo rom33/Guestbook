@@ -1,0 +1,74 @@
+body {
+	background-color: #ccc;
+	}
+h1 {
+   margin-left: 20px;
+   font-size: 250%
+}
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: -10px;
+    padding: 0;
+}
+#nav {
+    background-color: #000;
+    clear: both;
+    font-size: 24px;
+    height: 70px;
+    width: 100%;
+}
+#nav #head {
+	font-size: 30px;
+	padding: 10px;
+}
+#nav ul {
+    background-color: #222;
+    overflow: hidden;
+    z-index: 12;
+}
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 38px;
+    padding: 6px 40px;
+    text-decoration: none;
+}
+#hov li:hover > a {
+    color: #00B4FF;
+}
+#hov li:hover,  #hov a:hover {
+    background: #121212;
+    color: #00B4FF;
+    outline: 0 none;
+}
+#nav ul li {
+    background: none;
+}
+#nav ul li a {
+    float: none;
+}
+textarea {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  resize: none;
+}
+input {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  resize: none;
+}
+button {
+  width: 120px;
+}
+button a {
+  color: #000000;
+  border-radius: 3px;
+  text-decoration: none;
+}
+button a:hover {
+  border: 1px solid black;
+}

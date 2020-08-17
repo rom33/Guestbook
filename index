@@ -1,0 +1,24 @@
+<br><br><br>
+<center>
+<h1>Guestbook</h1>
+<p>Congratulation! You've found the accesspoint.</p>
+<br><br>
+<big>Please enter your data</big>
+<br><br>
+<form action="/site.html">
+Date:<br> 
+<input type="date" name="date" required>
+<br><br>
+Name:<br>
+<input type="text" name="firstname" maxlength="20" required>
+<br><br>
+Surname:<br>
+<input type="text" name="lastname" maxlength="20" required>
+<br><br>
+Comment:
+<br>
+<textarea rows="4" cols="80" name="message" maxlength="320" required></textarea>
+<br><br>
+<input type="submit">
+</form>
+</center>
